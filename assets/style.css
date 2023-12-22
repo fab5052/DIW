@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+.logo {
+
+
+  width: 60px;
+  height: 50px;
+
+}
+
+.recherche,
+.recherche * {
+  box-sizing: border-box;
+}
+.recherche {
+  color: #000000;
+  text-align: center;
+  font-family: "Sarpanch-SemiBold", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  position: relative;
+  width: 729px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.btn_next {
+
+  width: 165px;
+  height: 214px;
+  transform: rotate(90deg);
+  flex-shrink: 0; 
+
+}
+
+/* logo_transparent 2 */
+
+/*.bg{
+  position: absolute;
+  width: 100%;
+  border-radius: 53px 53px 0px 0px;
+}/*
+
+--#{$prefix}nav-underline-gap: #{$nav-underline-gap};
+--#{$prefix}nav-underline-border-width: #{$nav-underline-border-width};
+--#{$prefix}nav-underline-link-active-color: #{$nav-underline-link-active-color};
