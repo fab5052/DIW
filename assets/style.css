@@ -1,35 +1,90 @@
+* {
 
-
-
-
+  margin: 0;
+  padding: 0;
+  
+}
 
 
 
 .logo {
 
-
-  width: 60px;
-  height: 50px;
-
+  width: 150px;
+  height: 150px;
+  margin-right: 10%;
+ 
 }
 
-.recherche,
-.recherche * {
-  box-sizing: border-box;
+.navbar {
+  background: rgb(151, 160, 160);
+  border-style: ridge;
+  margin : 0px;
+  padding : 0px;
+  perspective: 590px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  vertical-align: baseline;  vertical-align: baseline; 
+  transform: translateZ(50px);
 }
-.recherche {
-  color: #000000;
-  text-align: center;
-  font-family: "Sarpanch-SemiBold", sans-serif;
-  font-size: 38px;
-  font-weight: 600;
-  position: relative;
-  width: 729px;
-  height: 80px;
+
+
+
+
+.nav-item-hover-effect:hover .nav-link {
+  background-color: #f2f9efc9; /* Couleur de fond au survol */
+  color:blanchedalmond;/* Couleur du texte au survol */
   display: flex;
+  height: 35px;
   align-items: center;
-  justify-content: center;
+  gap: 10px;
+  padding: 10px 40px;
 }
+
+/* Style pour la classe active */
+.nav-item-hover-effect .active.nav-link {
+  background-color:#c2c6c1; /* Couleur de fond pour l'élément actif */
+  color: #ebe1e4a4; /* Couleur du texte pour l'élément actif */
+  display: flex;
+  height: 35px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 40px;
+}
+
+
+
+
+.parallax {
+
+  background-image: url("https://img.freepik.com/vecteurs-libre/vecteur-conception-cadre-malbouffe-vierge_53876-108748.jpg?size=626&ext=jpg&ga=GA1.2.535422432.1704270397&semt=ais");
+  background-attachment: fixed; /* Fixe l'image pendant le scroll */
+  background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+  background-position: center; /* Centre la position de l'image */
+  background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+  overflow: hidden;
+  border-style: ridge;
+}
+
+
+.img-thumbnail {
+  perspective: 590px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  background: rgba(0, 0, 0, 0.3);
+  transform: translateZ(50px);
+  
+}
+
+.image-hover-effect {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.image-hover-effect:hover {
+  background-color: brown;
+}
+
 
 /*.btn_next {
 
@@ -42,12 +97,6 @@
 
 /* logo_transparent 2 */
 
-/*.bg{
-  position: absolute;
-  width: 100%;
-  border-radius: 53px 53px 0px 0px;
-}/*
-
---#{$prefix}nav-underline-gap: #{$nav-underline-gap};
+/*--#{$prefix}nav-underline-gap: #{$nav-underline-gap};
 --#{$prefix}nav-underline-border-width: #{$nav-underline-border-width};
 --#{$prefix}nav-underline-link-active-color: #{$nav-underline-link-active-color};
