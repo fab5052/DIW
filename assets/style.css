@@ -5,26 +5,25 @@
   
 }
 
-
+body {
+  background-color: #342d32;
+}
 
 .logo {
 
   width: 150px;
   height: 150px;
-  margin-right: 10%;
+
  
 }
 
 .navbar {
-  background: rgb(151, 160, 160);
-  border-style: ridge;
+  background: rgb(177, 187, 187);
+  
   margin : 0px;
   padding : 0px;
-  perspective: 590px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-  backface-visibility: visible;
-  vertical-align: baseline;  vertical-align: baseline; 
+ 
+  vertical-align: middle; 
   transform: translateZ(50px);
 }
 
@@ -53,7 +52,10 @@
 }
 
 
-
+.categorie {
+  border: 20px;
+  border-color: #342d32;
+}
 
 .parallax {
 
@@ -62,8 +64,9 @@
   background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
   background-position: center; /* Centre la position de l'image */
   background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+  background-color: #212420;
   overflow: hidden;
-  border-style: ridge;
+  
 }
 
 
